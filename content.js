@@ -1,38 +1,38 @@
 const CONTENT = [
   {
     type: "Curso",
-    title: "Treinamento Profissional de Portaria",
-    description: "Espaço reservado para seu curso. Substitua este conteúdo pelo material real.",
-    file: "downloads/curso-portaria.pdf"
+    title: "Curso de Portaria",
+    description: "Material de treinamento profissional para capacitação em portaria e controle de acesso.",
+    file: "curso-portaria.pdf"
   },
   {
     type: "Curso",
     title: "Código de Ética e Conduta",
-    description: "Material de treinamento para capacitação profissional.",
-    file: "downloads/curso-etica.pdf"
+    description: "Material de treinamento sobre ética, conduta profissional e postura no ambiente de trabalho.",
+    file: "curso-etica.pdf"
   },
   {
     type: "Apostila",
-    title: "Manual de Inspeção de Portaria",
-    description: "Apostila profissional para inspetores e supervisores.",
-    file: "downloads/manual-inspecao.pdf"
+    title: "Manual de Inspeção",
+    description: "Material profissional para inspeção e acompanhamento de postos de portaria.",
+    file: "manual-inspecao.pdf"
   },
   {
     type: "Apostila",
-    title: "Protocolo de Segurança e Controle de Acesso",
-    description: "Material didático para treinamento e consulta.",
-    file: "downloads/protocolo-seguranca.pdf"
+    title: "Protocolo de Segurança",
+    description: "Material sobre segurança, abertura de portões e controle de acesso.",
+    file: "protocolo-seguranca.pdf"
   },
   {
     type: "E-book",
-    title: "Gestão Profissional de Portaria",
+    title: "Gestão Profissional",
     description: "E-book para desenvolvimento e aperfeiçoamento profissional.",
-    file: "downloads/ebook-gestao.pdf"
+    file: "ebook-gestao.pdf"
   },
   {
     type: "E-book",
     title: "Mentalidade Profissional",
     description: "Conteúdo para desenvolvimento pessoal e profissional.",
-    file: "downloads/ebook-mentalidade.pdf"
+    file: "ebook-mentalidade.pdf"
   }
 ];
