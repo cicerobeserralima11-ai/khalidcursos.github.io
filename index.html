@@ -13,52 +13,36 @@
     <a class="brand" href="#inicio">KHALID<span>.</span><small>CURSOS & TREINAMENTOS</small></a>
     <button class="menu" aria-label="Abrir menu">☰</button>
     <nav id="nav">
-      <a href="#inicio">Início</a><a href="#cursos">Cursos</a><a href="#apostilas">Apostilas</a><a href="#ebooks">E-books</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+      <a href="#inicio">Início</a><a href="#cursos">Cursos</a><a href="#apostilas">Apostilas</a><a href="#ebooks">E-books</a><a href="#portal">Área do aluno</a><a href="#sobre">Sobre</a>
     </nav>
   </div>
 </header>
 
 <main>
-<section id="inicio" class="hero">
- <div class="wrap hero-grid">
-  <div>
-   <p class="tag">CONHECIMENTO • TREINAMENTO • PROFISSIONALIZAÇÃO</p>
-   <h1>Conhecimento que prepara você para a prática.</h1>
-   <p class="sub">Cursos, apostilas e e-books reunidos em um único portal, com acesso simples pelo celular ou computador.</p>
-   <div class="buttons"><a class="btn" href="#cursos">Explorar conteúdos</a><a class="btn outline" href="#sobre">Conheça o Khalid</a></div>
-  </div>
+<section id="inicio" class="hero"><div class="wrap hero-grid">
+  <div><p class="tag">CONHECIMENTO • TREINAMENTO • PROFISSIONALIZAÇÃO</p><h1>Conhecimento que prepara você para a prática.</h1><p class="sub">Cursos, apostilas e e-books reunidos em um único portal, com acesso simples pelo celular ou computador.</p><div class="buttons"><a class="btn" href="#cursos">Explorar conteúdos</a><a class="btn outline" href="#portal">Entrar na área do aluno</a></div></div>
   <div class="hero-box"><div class="seal">K</div><p>PORTAL OFICIAL</p><h2>Khalid</h2><span>Cursos & Treinamentos</span></div>
+</div></section>
+
+<section class="numbers"><div class="wrap nums"><div><b>16</b><span>Aulas no curso principal</span></div><div><b>32</b><span>Questões de aula</span></div><div><b>30</b><span>Questões na prova final</span></div></div></section>
+
+<section id="cursos" class="section"><div class="wrap"><div class="head"><div><p class="tag">FORMAÇÃO</p><h2>Cursos</h2></div><span>Capacitação profissional</span></div><div class="grid" id="courseGrid"></div></div></section>
+<section id="apostilas" class="section alt"><div class="wrap"><div class="head"><div><p class="tag">MATERIAL DIDÁTICO</p><h2>Apostilas</h2></div><span>Consulta e treinamento</span></div><div class="grid" id="bookletGrid"></div></div></section>
+<section id="ebooks" class="section"><div class="wrap"><div class="head"><div><p class="tag">LEITURA</p><h2>E-books</h2></div><span>Conteúdo para evolução</span></div><div class="grid" id="ebookGrid"></div></div></section>
+
+<section id="portal" class="portal section alt"><div class="wrap">
+ <div class="head"><div><p class="tag">ÁREA RESTRITA</p><h2>Área do aluno</h2></div><span>Seu progresso fica salvo online</span></div>
+ <div id="authBox" class="auth-box">
+   <div><h3>Entre no SITE KHALID</h3><p>Acesse suas aulas, quizzes, progresso e prova final.</p></div>
+   <form id="loginForm" class="auth-form"><input id="email" type="email" placeholder="Seu e-mail" required><input id="password" type="password" placeholder="Sua senha" required minlength="6"><div class="auth-actions"><button class="btn" type="submit">Entrar</button><button class="btn outline" type="button" id="signupBtn">Criar conta</button></div><small id="authMessage"></small></form>
  </div>
-</section>
-
-<section class="numbers"><div class="wrap nums"><div><b>06</b><span>Materiais iniciais</span></div><div><b>03</b><span>Categorias</span></div><div><b>24/7</b><span>Acesso online</span></div></div></section>
-
-<section id="cursos" class="section"><div class="wrap">
- <div class="head"><div><p class="tag">FORMAÇÃO</p><h2>Cursos</h2></div><span>Capacitação profissional</span></div>
- <div class="grid" id="courseGrid"></div>
+ <div id="studentApp" class="student-app hidden"></div>
 </div></section>
 
-<section id="apostilas" class="section alt"><div class="wrap">
- <div class="head"><div><p class="tag">MATERIAL DIDÁTICO</p><h2>Apostilas</h2></div><span>Consulta e treinamento</span></div>
- <div class="grid" id="bookletGrid"></div>
-</div></section>
-
-<section id="ebooks" class="section"><div class="wrap">
- <div class="head"><div><p class="tag">LEITURA</p><h2>E-books</h2></div><span>Conteúdo para evolução</span></div>
- <div class="grid" id="ebookGrid"></div>
-</div></section>
-
-<section id="sobre" class="about"><div class="wrap about-grid">
- <div><p class="tag">SOBRE O PORTAL</p><h2>Experiência profissional transformada em conhecimento.</h2></div>
- <div><p>O portal Khalid foi criado para reunir treinamentos, materiais de apoio, apostilas e e-books em um ambiente simples, profissional e acessível.</p><p>Novos conteúdos poderão ser adicionados continuamente, formando uma biblioteca de conhecimento para profissionais e alunos.</p></div>
-</div></section>
-
-<section id="contato" class="contact"><div class="wrap contact-box">
- <div><p class="tag">CONTATO</p><h2>Quer saber mais sobre os treinamentos?</h2><p>Entre em contato para conhecer os próximos conteúdos e cursos.</p></div>
- <a class="btn" href="https://wa.me/5511957903237" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
-</div></section>
+<section id="sobre" class="about"><div class="wrap about-grid"><div><p class="tag">SOBRE O PORTAL</p><h2>Experiência profissional transformada em conhecimento.</h2></div><div><p>O portal Khalid foi criado para reunir treinamentos, materiais de apoio, apostilas e e-books em um ambiente simples, profissional e acessível.</p><p>O conteúdo do curso e o progresso do aluno ficam armazenados online no banco de dados do SITE KHALID.</p></div></div></section>
+<section class="contact"><div class="wrap contact-box"><div><p class="tag">CONTATO</p><h2>Treinamento profissional com acompanhamento.</h2><p>Novos cursos, materiais e salas ao vivo poderão ser adicionados ao portal.</p></div><a class="btn" href="https://wa.me/5511957903237" target="_blank" rel="noopener">Falar pelo WhatsApp</a></div></section>
 </main>
-
 <footer><div class="wrap foot"><div><strong>KHALID<span>.</span></strong><p>Cursos & Treinamentos</p></div><p>© <span id="year"></span> Khalid. Todos os direitos reservados.</p></div></footer>
-<script src="content.js"></script><script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="content.js"></script><script src="app.js"></script><script src="course.js"></script>
 </body></html>
